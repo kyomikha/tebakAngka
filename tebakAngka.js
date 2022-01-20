@@ -1,14 +1,13 @@
 var ulang = true;
 while(ulang) {
 
-alert('Tebaklah angka 1-10 \nKamu memiliki 3x kesempatan');	
+//tentukan peraturan
+var i = 3;
+alert('Tebaklah angka 1-10 \nKamu memiliki ' + i + ' kesempatan');	
 
 //tentukan CP
 var c =Math.round(Math.random()*10);
 //console.log(c);
-
-//tentukan peraturan
-var i = 3;
 
 //tentukan cara bermain
 	for (i; i > 0; i--) {
